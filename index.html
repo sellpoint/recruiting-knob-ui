@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title class="titleText">Programming Challenge</title>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    </head>
+    <body>
+        
+        <custom-knob> </custom-knob>
+        
+        <script type="module">
+            import html from 'https://cdn.skypack.dev/snabby';
+
+            // put your implementation here ;)
+            
+        </script>
+
+
+        <script type="module">
+            const knob = document.querySelector('custom-knob');
+
+            // listen for changes the knob component
+            knob.addEventListener('input', function (ev) {
+                // this should fire when your implementation is working.
+                console.log('knob value changed! new value:', ev.detail.value);
+            });
+
+        </script>
+
+    </body>
+</html>
