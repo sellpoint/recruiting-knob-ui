@@ -1,7 +1,6 @@
 # 🎛️ recruiting-knob-ui
-programming challenge around custom ui elements snabby, and SVG.
 
-
+A programming challenge focused on custom ui elements built with snabby and SVG.
 
 
 ## Description
@@ -23,7 +22,7 @@ Build a custom knob element with the following constraints:
 
 ### Sample SVGs
 
-If you look at  the source of  `index.html` you'll see  2 `<svg>`  tags that you can use to render the control in your implementation.
+If you look at the source of  `index.html` you'll see  2 `<svg>`  tags that you can use to render the control in your implementation.
 
 1- Here's how the knob should look "normally":
 
@@ -38,7 +37,6 @@ If you look at  the source of  `index.html` you'll see  2 `<svg>`  tags that you
 
 ## Additional Constraints
 * you can assume ultra-modern browser feature support (custom elements v1, optional chaining, etc.) no need to polyfill or handle old browsers.
-
 
 
 
