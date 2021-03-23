@@ -10,9 +10,9 @@ Knobs are interesting UI components in that they often closely model the control
 
 
 ## Task
-Build a custom knob element with the following constraints:
+Build a knob control with the following constraints:
 
-* make the knob a custom html component. e.g., it should be possible to instantiate one of these knobs by putting html into a page, like this: `<custom-knob> </custom-knob>  ` https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements
+* make it a custom html component. e.g., it should be possible to instantiate one or more of these knobs by putting html into a page, like this: `<custom-knob> </custom-knob>  ` https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements
 * internally within the custom element, render the knob using `snabby`  https://github.com/mreinstein/snabby
 * The element should be interactive; Should be able to use mouse and/or touch input to drag the knob position
 * draw the knob graphic itself as an SVG element.
@@ -45,12 +45,10 @@ A lot of things going into modern "high quality" UI components. Try to come up w
 
 
 
-
 ## Setup
 - clone this repo
 - serve this directory in any web server of your choosing
 - open index.html and hack away!
-
 
 
 
